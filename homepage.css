@@ -1,27 +1,52 @@
-body {
+*
+{
+	margin: 0;
+	padding:0;
+	font-family: Century Gothic;
+}
+header
+{
+	background-image: url("vegetable scroll.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+body
+ {
+
 	margin: 0px;
-	background-image:url("vegetable scroll.jpg");
-	background-size: 100%;
-	background-origin: content-box;
-
 }
-
-.container {
-	display: flex;
-	
-}
-
 h1 {
 	font-family:cursive;
+	font-style: arial;
 	font-size: 3em;
 	width: 400px;
 	text-align: center;
-	-moz-box-shadow:4px 4px 5px #888888;
-	-ms-box-shadow: 4px 4px 5px #888888;
-	-webkit-box-shadow: 4px 4px 5px #888888;
-	-o-box-shadow: 4px 4px 5px #888888;
-	box-shadow: 4px 4px 5px #888888;
 	margin-top: 10px;
+	background-size: cover;
 }
-
+#main-nav
+{
+height: auto;
+width:400px;
+}
+ul
+{
+	float: center;
+	list-style-type: none;
+}
+li a
+{
+font-size:3em;
+font-style: normal;
+text-decoration: none;
+text-shadow: 4px;
+padding: 10px;
+color:black;
+}
+li a:hover
+{
+color: yellow;
+	transform: scale(1);
+}
 
