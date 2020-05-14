@@ -1,0 +1,27 @@
+body {
+	margin: 0px;
+	background-image:url("vegetable scroll.jpg");
+	background-size: 100%;
+	background-origin: content-box;
+
+}
+
+.container {
+	display: flex;
+	
+}
+
+h1 {
+	font-family:cursive;
+	font-size: 3em;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+
